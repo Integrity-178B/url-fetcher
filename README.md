@@ -1,8 +1,9 @@
 ## URL Fetcher  
-Url fetcher is dead simple http server for fetching contents of urls list   
-  
+Url fetcher is dead simple service for fetching contents of urls list   
+
 ### API  
   `POST /` - fetch contents of urls list
+
 *Example request:* 
 ```
 curl http://localhost:6666 -X POST -H "Content-Type: application/json" --data '["https://google.com", "https://yandex.ru", "https://habr.com", "https://onliner.by", "https://www.linkedin.com"]'
